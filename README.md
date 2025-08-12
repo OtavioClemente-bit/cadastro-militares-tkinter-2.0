@@ -47,7 +47,7 @@ cadastro_militares/
 
 1. **Clone** o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/cadastro-militares-tkinter.git
+   git clone https://github.com/OtavioClemente-bit/cadastro-militares-tkinter.git
    cd cadastro-militares-tkinter/cadastro_militares
    ```
 
