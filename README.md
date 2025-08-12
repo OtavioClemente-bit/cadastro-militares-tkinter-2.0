@@ -88,16 +88,7 @@ cadastro_militares/
 - [ ] Ícones nos botões principais
 - [ ] Testes automatizados básicos (unittest/pytest)
 
-## Capturas de tela (sugestão)
-Adicione prints da tela inicial, cadastro e listagem em `docs/` e referencie aqui:
-```
-docs/
-├─ screenshot-home.png
-├─ screenshot-cadastro.png
-└─ screenshot-listagem.png
-```
-
-Exemplo de inclusão no README:
+## Capturas de tela
 ```markdown
 ![Tela inicial](docs/screenshot-home.png)
 ```
