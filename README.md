@@ -81,13 +81,6 @@ cadastro_militares/
 - Índices e estrutura são geridos por `database/db.py`.
 - Backup simples: copie o arquivo `militares.db`.
 
-## Roadmap (opcional)
-- [ ] Paginação/Busca avançada na listagem
-- [ ] Validações de CPF/IDT no backend
-- [ ] Tema visual coeso (ttk) em todas as telas
-- [ ] Ícones nos botões principais
-- [ ] Testes automatizados básicos (unittest/pytest)
-
 ## Capturas de tela
 
 ![Tela inicial](docs/screenshot-home.png)
