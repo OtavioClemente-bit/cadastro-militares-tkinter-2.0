@@ -1,0 +1,5 @@
+# Dependências principais
+openpyxl>=3.1
+# Tkinter vem com Python em Windows/macOS; em algumas distros Linux, instale via pacote do SO.
+# Se o projeto usar Pillow em alguma tela, descomente a linha abaixo:
+# pillow>=10.0
