@@ -89,9 +89,9 @@ cadastro_militares/
 - [ ] Testes automatizados básicos (unittest/pytest)
 
 ## Capturas de tela
-```markdown
+
 ![Tela inicial](docs/screenshot-home.png)
-```
+
 
 ## Licença
 Distribuído sob licença **MIT**. Veja `LICENSE` para detalhes.
