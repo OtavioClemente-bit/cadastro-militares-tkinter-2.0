@@ -5,7 +5,7 @@ Aplicação desktop em **Python/Tkinter** para cadastro e gestão de militares, 
 > **Objetivo**: sistema simples, direto e funcional para uso interno, sem dependência de servidor.  
 > **Observação**: este repositório preserva o **código original**, sem alterações estruturais.
 
-## ✨ Funcionalidades
+## Funcionalidades
 - Cadastro completo de militares (dados pessoais, bancários e administrativos)
 - Listagem e edição com interface Tkinter
 - Importação/Exportação para **Excel (.xlsx)**
@@ -13,13 +13,13 @@ Aplicação desktop em **Python/Tkinter** para cadastro e gestão de militares, 
 - Catálogos de **Postos/Graduações** e **Bancos** com “seed” automático
 - Banco **SQLite** embutido (`militares.db`)
 
-## 🖥️ Stack
+## Stack
 - **Linguagem**: Python 3.10+  
 - **GUI**: Tkinter/ttk  
 - **Banco de Dados**: SQLite  
 - **Planilhas**: openpyxl
 
-## 📦 Estrutura de Pastas
+## Estrutura de Pastas
 ```
 cadastro_militares/
 ├─ main.py
@@ -42,7 +42,7 @@ cadastro_militares/
    └─ __init__.py
 ```
 
-## 🚀 Como rodar localmente
+## Como rodar localmente
 > Testado em Windows. Em Linux/macOS os comandos são equivalentes.
 
 1. **Clone** o repositório:
@@ -70,25 +70,25 @@ cadastro_militares/
 
 > O arquivo `militares.db` é criado/ajustado automaticamente na primeira execução (seed de catálogos de postos e bancos).
 
-## 📄 Importação/Exportação (Excel)
+## Importação/Exportação (Excel)
 - O módulo `impor_export.py` oferece:
   - `exportar_para_excel(...)` → gera uma planilha com os registros
   - `importar_de_excel(...)` → lê uma planilha no padrão esperado e insere/atualiza registros
 - Recomendação: comece exportando para ver o **layout de colunas** esperado e então preencha sua planilha seguindo o mesmo padrão.
 
-## 🗂️ Banco de Dados
+## Banco de Dados
 - SQLite local (`militares.db`), criado automaticamente na raiz do projeto (`/cadastro_militares`).
 - Índices e estrutura são geridos por `database/db.py`.
 - Backup simples: copie o arquivo `militares.db`.
 
-## 🧭 Roadmap (opcional)
+## Roadmap (opcional)
 - [ ] Paginação/Busca avançada na listagem
 - [ ] Validações de CPF/IDT no backend
 - [ ] Tema visual coeso (ttk) em todas as telas
 - [ ] Ícones nos botões principais
 - [ ] Testes automatizados básicos (unittest/pytest)
 
-## 🖼️ Capturas de tela (sugestão)
+## Capturas de tela (sugestão)
 Adicione prints da tela inicial, cadastro e listagem em `docs/` e referencie aqui:
 ```
 docs/
@@ -102,7 +102,7 @@ Exemplo de inclusão no README:
 ![Tela inicial](docs/screenshot-home.png)
 ```
 
-## ⚖️ Licença
+## Licença
 Distribuído sob licença **MIT**. Veja `LICENSE` para detalhes.
 
 ---
